@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pets | New user</title>
-    <link rel="icon" type="images/png" href="../src/Icons/logo.png">
+    <title>pets | new user</title>
+    <link rel="icon" type="image/png" href="images/pet-care.png">
 </head>
 <body>
+    <style>
+        body{
+             background-color :rgb(153, 216, 158);
+        }
+    </style>
     <center>
-        <img src="images/3456426.png" width="200">
-    </center>
-    <form name="singup_form" action="Backend/singup.php" method="post">
-        <table border="0" align="center">
-            <tr><td><input type="text" name="fname" placeholder="fullname" required></td></tr>
-            <tr><td><input type="email" name="email" placeholder="@email-com" required></td></tr>
-            <tr><td><input type="password" name="password" placeholder="***********" required></td></tr>
-            <tr><td align="center"><button>Register</button>
+        <br>
+        <h2> <span style="color: rgb(243, 245, 247);"> Welcome to the pet registry.</span></h2>
+        <br>
+        <img src="images/survey.png" width="100" alt="150" 
 
-        </table>
-    </form>
+    </center>
+    <form name="signup-form" action="backend/signup.php" method="post">
+    <table border="0"align="center">
+    <br><tr><td> <input type="text" name="fname" placeholder="fullname" required></td></tr>
+    <tr><td> <input type="email" name="email" placeholder="jhgda@gmail.com" required ></td></tr>
+    <tr><td> <input type="password" name="passwd" placeholder="********" required></td></tr>
+    <tr><td align="center"><button>register</button></td></tr>
+     </table>
+     <a href="signin.html">sing out </a>
+</form>
 </body>
 </html>
